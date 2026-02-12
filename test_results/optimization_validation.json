@@ -1,0 +1,76 @@
+{
+  "timestamp": "2026-02-11T18:30:31.545899",
+  "performance": {
+    "health": {
+      "name": "Health Endpoint",
+      "average": 7.444930076599121,
+      "min": 4.444360733032227,
+      "max": 13.885736465454102,
+      "median": 6.767392158508301,
+      "stdev": 2.870836698809774,
+      "errors": 0,
+      "success_rate": 100.0
+    },
+    "api": {
+      "name": "API Endpoint",
+      "average": 7.503557205200195,
+      "min": 5.320072174072266,
+      "max": 10.477066040039062,
+      "median": 7.538080215454102,
+      "stdev": 1.9973980178599358,
+      "errors": 0,
+      "success_rate": 100.0
+    }
+  },
+  "configuration": {
+    "status": "success",
+    "settings": {
+      "temperature": 0.7,
+      "top_p": 0.9,
+      "top_k": 40,
+      "repeat_penalty": 1.1,
+      "max_tokens": 2048,
+      "context_length": 2048,
+      "num_threads": 2,
+      "batch_size": 1,
+      "use_mmap": true,
+      "use_mlock": false,
+      "numa": false
+    },
+    "hardware": {
+      "cpu_cores": 2,
+      "ram_gb": 7.5
+    },
+    "validated": true
+  },
+  "integration": {
+    "api_available": false,
+    "models_available": false,
+    "chat_working": false
+  },
+  "optimization": {
+    "status": "success",
+    "settings": {
+      "temperature": 0.7,
+      "top_p": 0.9,
+      "top_k": 40,
+      "repeat_penalty": 1.1,
+      "max_tokens": 2048,
+      "context_length": 2048,
+      "num_threads": 2,
+      "batch_size": 1,
+      "use_mmap": true,
+      "use_mlock": false,
+      "numa": false
+    },
+    "validations": {
+      "temperature": true,
+      "max_tokens": true,
+      "top_p": true,
+      "top_k": true,
+      "repeat_penalty": true,
+      "num_threads": true
+    },
+    "all_valid": true
+  }
+}
