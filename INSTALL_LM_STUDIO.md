@@ -44,17 +44,17 @@ LM Studio is a desktop application for running local LLMs. Here are the installa
 After installing and starting LM Studio:
 
 1. **Start LM Studio** and download a model (e.g., Mistral 7B, Llama 2)
-2. **Start the local server** in LM Studio (usually on port 1234)
+2. **Start the local server** in LM Studio (usually on port <PORT>)
 3. **Update your `.env` file**:
    ```
-   LM_STUDIO_API_URL=http://localhost:1234
+   LM_STUDIO_API_URL=http://localhost:<PORT>
    ```
 
 ## Verifying Installation
 
 Test the connection:
 ```bash
-curl http://localhost:1234/v1/models
+curl http://localhost:<PORT>/v1/models
 ```
 
 If you get a JSON response with models, LM Studio is running correctly!

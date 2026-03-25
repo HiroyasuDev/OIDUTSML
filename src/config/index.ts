@@ -12,7 +12,7 @@ const configSchema = z.object({
     credentials: z.boolean().default(true),
   }),
   lmStudio: z.object({
-    apiUrl: z.string().url().default('http://localhost:1234'),
+    apiUrl: z.string().url().default('http://localhost:<PORT>'),
     apiKey: z.string().optional(),
     model: z.string().optional(),
     temperature: z.coerce.number().default(0.7),

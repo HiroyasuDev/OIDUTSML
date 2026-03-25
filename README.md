@@ -102,7 +102,7 @@ Environment variables are configured in `.env` file. See `.env.example` for all 
 1. Install and start LM Studio
 2. Configure the API URL in `.env`:
    ```
-   LM_STUDIO_API_URL=http://localhost:1234
+   LM_STUDIO_API_URL=http://localhost:<PORT>
    ```
 3. Optionally set model and API key
 
